@@ -27,40 +27,7 @@ public class App {
         return false;
     }
 
-    /*public static String findLongestWord(String[] words) {
 
-        String longestWord = words[0];
-
-        for (String word : words) {
-            if (word.length() > longestWord.length()) {
-                longestWord = word;
-            }
-        }
-
-        String[] newArray = removeStringFromArray(originalArray, stringToDelete);
-
-        return longestWord;
-    }
-
-    public static String checkWord(String[] sentence){
-
-        String longestWord = findLongestWord(sentence);
-
-
-
-        StringBuilder newWord = new StringBuilder();
-        newWord.append(longestWord).reverse();
-
-        if(longestWord.equals(newWord.toString())){
-
-            return longestWord;
-        }else{
-
-
-        }
-
-        return longestWord;
-    }*/
 
 
 
@@ -71,7 +38,7 @@ public class App {
         System.out.println(checkWord(toTest));
         String wordToTest = "level";
         System.out.println(checkWordWithBuilder(wordToTest));
-        //String[] sentence = {"This", "is", "a", "sentence"};
+
 
 
     }
